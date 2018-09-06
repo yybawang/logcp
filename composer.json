@@ -1,0 +1,41 @@
+{
+    "name": "yybawang/logcp",
+    "type": "project",
+    "keywords": [
+        "log",
+        "远程日志",
+        "日志抓取"
+    ],
+    "homepage": "https://github.com/yybawang/logcp",
+    "license": "MIT",
+    "description": "",
+    "authors": [
+        {
+            "name": "yybawang",
+            "email": "yybawang@gmail.com",
+            "homepage": "https://github.com/yybawang/logcp",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "yybawang@gmail.com",
+        "issues": "https://github.com/yybawang/logcp/issues",
+        "source": "https://github.com/yybawang/logcp"
+    },
+    "require": {
+        "php": ">=7.1.12",
+        "illuminate/database": "^5.7@dev"
+    },
+    "suggest": {
+        "ext-event": "For better performance. "
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "api/"
+        },
+        "files": [
+            "api/Libraries/helper.php"
+        ]
+    },
+    "minimum-stability": "dev"
+}
